@@ -14,7 +14,6 @@ export default function Search() {
 
         return(
             ()=>{
-                console.log("unmounted");
                 setSearchFlag(false)
                 setSearchData(()=>([]));
             }
