@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.post h1{
+    margin: 0px;
+}
+
+
+.post{
+    max-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.post .summary .date{
+    color: rgba(0, 0, 0, 0.438);
+}
+
+.details{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.details input{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.471);
+
+}
+
+.details button{
+    width: 80%;
+    padding: 5px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: grey;
+    border: none;
+    margin: auto;
+}
+
+.details button:hover{
+    background-color: rgba(128, 128, 128, 0.763);
+}
+
+.singlePost img{
+    width: 80%;
+    height: 600px;
+    object-fit: cover;
+}
+
